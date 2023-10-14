@@ -1,0 +1,106 @@
+#main-card-container {
+    font-family: "Montserrat", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    background: url(https://static.vecteezy.com/system/resources/previews/008/167/404/non_2x/simply-soft-gradation-technology-background-free-vector.jpg) no-repeat center center fixed;
+}
+
+
+#card-section {
+    width: 600px;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+}
+
+#card-section>span {
+    background-color: black;
+    width: 100%;
+    height: 5px;
+}
+
+#card {
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x right top #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #ddd;
+}
+
+.title h1 {
+    font-size: 36px !important;
+    margin: 10px 0;
+}
+
+.title h2 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#name {
+    color: #08aeac;
+}
+
+.hr1 {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png) no-repeat center center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-main {
+    padding: 0 2.3rem;
+}
+
+.card-main p {
+    font-size: 13px;
+}
+
+#information-button {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png) no-repeat center center #08aeac;
+    transition: 0.6s;
+}
+
+#information-button:hover {
+    background-color: red;
+}
+
+#information-button p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#icons i {
+    color: white;
+    background-color: #333333;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#icons i:hover {
+    background-color: #08aeac;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../scripts/script.js">
+    <link rel="stylesheet" href="../styles/contactme.css">
+    
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+     <div class="navigation">
+        <a href="../htmls/index.html" class="name-link">Bayazid Alakabarli</a>
+    </div>
+
+    <div id="app" class="mt-5">
+        <h1>Contact Me</h1>
+
+        <form @submit.prevent="sendMessage">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" v-model="name" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="surname" class="form-label">Surname:</label>
+                <input type="text" v-model="surname" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" v-model="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea v-model="message" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.skills-text:hover {
+    height: 65px;
+    cursor: grabbing;
+}
+
+
+.section:hover {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.section:active {
+    opacity: 0.5;
+}

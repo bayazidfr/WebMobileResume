@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    height: 2700px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.name-link {
+    color: rgb(24, 33, 83);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+}
+
+.section {
+    color: rgb(24, 33, 83);
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+.main-info-container {
+    height: 520px;
+    display: grid;
+    grid-template-rows: 100px 320px;
+}
+
+.main-info-general {
+    display: grid;
+    grid-template-columns: 1fr 0.3px 1fr;
+    gap: 60px;
+}
+
+.main-info-headers {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(24, 33, 83);
+    letter-spacing: 4px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.line-between {
+    background-color: rgb(214, 214, 214);
+    height: 410px;
+}
+
+#line-between-second {
+    height: 530px;
+}
+
+.extended-info {
+    width: 500px;
+}
+
+#second-info-container {
+    height: 620px;
+}
+
+.main-skills-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 100px 630px;
+    gap: 1px;
+}
+
+.skills-header {
+    background-color: rgb(24, 33, 83);
+    align-items: center;
+}
+
+.skills-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(24, 33, 83);
+    gap: 100px;
+}
+
+.skills-left,
+.skills-right {
+    display: grid;
+    grid-template-rows: 77px 77px 77px 77px;
+    justify-content: left;
+    align-items: center;
+    gap: 80px;
+    padding-top: 40px;
+}
+
+.skills-left {
+    justify-content: right;
+    align-items: center;
+}
+
+
+
+.skills-text {
+    background-color: rgb(242, 239, 239);
+    display: inline-block;
+    padding-top: 40px;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    transition: height 15ms;
+}
+
+#app {
+    max-width: 428px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.spr {
+    height: 1.5px;
+    background-color: rgb(214, 214, 214);
+}
+
+.bottom-section {
+    width: 285.6px;
+    height: 97.4px;
+}
+
+.main-bottom-container {
+    display: flex;
+    height: 184px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom {
+    margin-top: 10px;
+}
